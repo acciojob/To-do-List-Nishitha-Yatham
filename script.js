@@ -7,7 +7,7 @@ function addTodo(){
 	if(todoValue.value){
 		var li=document.createElement('li');
 		li.textContent=todoValue.value;
-		ol.appendChild(li);
+		list.appendChild(li);
 		todoValue.value="";
 	}
 }
